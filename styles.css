@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
+
+body {
+    min-height: 100vh;
+    padding: 32px;
+}
+
+p {
+    line-height: 1.5px;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* NAVIGATION */
+
+
+.nav-container {
+    width: 100%;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 40px;
+    margin-right: 8px;
+}
+
+.a-logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.txt-logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav-links {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    
+}
+
+.nav-link {
+    margin:0 24px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    
+}
+
+.nav-link--second {
+    margin: 0px 24px 0px 48px;
+}
+
+.nav-link--primary {
+   padding: 12px 32px; 
+   margin: 0;
+   flex-direction: column;
+   background-color: #6415ff;
+   color: #fff;
+   border-radius: 9999px;
+   transition: background-color 0.3s ease ;
+}
+
+.nav-link--primary:hover {
+   background-color: #5112d1;
+}
