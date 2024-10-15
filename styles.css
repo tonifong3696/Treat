@@ -29,6 +29,10 @@ img {
     height: 100%;
 }
 
+.purple {
+    color: #6415ff;
+}
+
 /* NAVIGATION */
 
 
@@ -57,6 +61,11 @@ img {
 .txt-logo {
     font-size: 1.5rem;
     font-weight: 900;
+    transition: color 0.3s ease;
+}
+
+.txt-logo:hover {
+    color: #6415ff;
 }
 
 .nav-links {
@@ -89,4 +98,15 @@ img {
 
 .nav-link--primary:hover {
    background-color: #5112d1;
+}
+
+/* LANDING */
+
+.landing-container {
+    width: 100%;
+    padding-top: 6rem;
+}
+
+.landing-title {
+    font-size: 500px;
 }
