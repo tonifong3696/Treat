@@ -222,6 +222,12 @@ border : 2px solid #858484
     margin-bottom: 40px;
 }
 
+.img-ilustration {
+    max-width: 48rem;
+}
+
+
+
 /* FEATURES */
 
 #features {
@@ -244,7 +250,7 @@ border : 2px solid #858484
     justify-content: center;
 }
 
-.span-features {
+.span-title {
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 0.2em;
@@ -366,4 +372,50 @@ opacity: 0.8;
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
+}
+
+/* STEPS */
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps-img {
+    width: 50%;
+}
+
+.steps-subtitles {
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.steps-list-numbers {
+    font-size: 36px;
+    font-weight: 600;
+    opacity: 1;
+    color: rgb(203 213 224);
+}
+
+
+.steps-list-title {
+    margin-left: 1.5rem;
+    text-align: start;
+}
+
+.steps-list--description {
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+.steps-list-para {
+    
 }
