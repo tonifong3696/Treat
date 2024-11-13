@@ -119,8 +119,6 @@ button {
     margin-right: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    
-    
 }
 
 .primary-container {
@@ -379,15 +377,24 @@ opacity: 0.8;
 .steps-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between ;
+    width: 50%;
+}
+
+.steps-figure {
+    align-content: center;
 }
 
 .steps-img {
-    width: 50%;
+    width: 95%;
+    border-radius: 0.25rem;
+    display: flex;
 }
 
 .steps-subtitles {
     font-size: 56px;
     font-weight: 900;
+    margin-top: 36px;
 }
 
 .steps-list {
@@ -413,9 +420,18 @@ opacity: 0.8;
 .steps-list--description {
     font-size: 1.25rem;
     font-weight: 600;
+    line-height: 1;
+    margin-bottom: 20px;
+    margin-top: 5px;
 
 }
 
 .steps-list-para {
-    
+    line-height: 2;
+    font-weight: 500;
+    max-width: 20rem;
+    color: rgb(113 128 150);
 }
+
+/* VALUES */
+
