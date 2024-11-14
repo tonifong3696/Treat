@@ -18,6 +18,7 @@ body {
 
 p {
     line-height: 1.5;
+    color: #7c8ba1;
 }
 
 a {
@@ -435,3 +436,31 @@ opacity: 0.8;
 
 /* VALUES */
 
+.values-container {
+    width: 576px;
+}
+
+.values-subtitles {
+    margin-top: 16px;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.values-subtitles--para {
+    margin-top: 32px;
+    font-size: 18px;
+}
+
+.values-description {
+    display: flex;
+    text-align: left;
+}
+
+.va-des {
+    align-items: center;
+    
+}
+
+.des {
+    display: flex;
+}
