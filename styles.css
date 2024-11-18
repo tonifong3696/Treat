@@ -451,16 +451,28 @@ opacity: 0.8;
     font-size: 18px;
 }
 
-.values-description {
-    display: flex;
-    text-align: left;
-}
-
-.va-des {
-    align-items: center;
+.values-description--container {
+    width: 100%;
+    max-width: 261.63px;
     
 }
 
-.des {
+.values-description  {
+    align-items: center;
     display: flex;
+}
+
+.values-h3-titles {
+    margin-left: 16px;
+}
+
+.values-title--description {
+    display: inline-block;
+    border-width: 0px;
+    border-radius: 9999px;
+    background-color: rgb(154 230 180);
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-bottom: 13px;
+    padding-right: 16px;
 }
